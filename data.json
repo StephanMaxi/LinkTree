@@ -1,0 +1,37 @@
+{
+    "name" : "The Trift Fariy",
+    "avatar" : "https://pbs.twimg.com/semantic_core_img/1182588441436905472/4z5xwfpX?format=png&name=120x120",
+    "links" : [
+            {
+                "title" : "Instagram",
+                "url" : "https://www.instagram.com/thethrift.fairyy/"
+            },
+            {
+                "title" : "Tik-Tok",
+                "url" : "https://www.tiktok.com/@thethrift.fairy"
+            },
+            {
+                "title" : "Poshmark",
+                "url" : "https://poshmark.com/closet/thethriftfairyy"
+            },
+            {
+                "title" : "Ebay",
+                "url" : "https://www.ebay.com/usr/fitzbymadz"
+            },
+            {
+                "title" : "Etsy",
+                "url" : "https://www.etsy.com/shop/FitzbyMadz"
+            }
+        ],
+     "socials" : [
+            {
+                "title" : "Instagram",
+                "url" : "https://www.instagram.com/thethrift.fairyy/"
+            },
+            {
+                "title" : "Tik Tok",
+                "url" : "https://www.tiktok.com/@thethrift.fairy"
+            }
+        ]
+
+}
