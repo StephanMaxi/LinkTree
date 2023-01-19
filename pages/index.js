@@ -15,7 +15,7 @@ export default function Home() {
     width={120}
     height={120}
     />
-    <h1 className='font-semibold mb-7'>{data.name}</h1>
+    <h1 className='font-bold mb-7 text-xl text-white'>{data.name}</h1>
    {data.links.map((link)=>(
     <LinkCard key = {link.url} {...link}/>
    ))}
