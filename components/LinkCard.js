@@ -8,7 +8,7 @@ export default function LinkCard({title, url}) {
              rel="noopener noreferrer"
             >
             <div className="flex flex-col w-full text-center">
-                <h2 className="font-semibold text-lg w-full text-center">{title}</h2>
+                <h2 className="font-semibold text-lg w-full text-center text-white">{title}</h2>
             </div>
             </a>  
     )
