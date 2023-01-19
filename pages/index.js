@@ -2,6 +2,7 @@ import Image from 'next/image';
 import data from '../data.json';
 import LinkCard from '@/components/LinkCard';
 import pfp from '../public/pfp.jpg'
+import SocialIcons from '@/components/SocialIcons';
 
 export default function Home() {
 
@@ -18,7 +19,11 @@ export default function Home() {
    {data.links.map((link)=>(
     <LinkCard key = {link.url} {...link}/>
    ))}
-   
+    <div className="flex flex-row gap-8">
+   {data.socials.map((link)=>(
+    <SocialIcons key = {link.url} {...link}/>
+   ))}
+   </div>
     </div>
   )
 }
